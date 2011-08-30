@@ -8,13 +8,9 @@ Install
 
 Extract the download archive, paste the JsBeautifier folder in the Sublime Text 2 "Packages" directory, which is located where ever the `Preferences` -> `Browse Packages` option in sublime takes you.
 
-On Mac OS/X Sublime Text 2 installs it's packages into the `~/Library/Application\ Support/Sublime\ Text\ 2/Packages` directory. Here's how I install from the git repo:
+On Mac OS/X Sublime Text 2 installs it's packages into the `~/Library/Application\ Support/Sublime\ Text\ 2/Packages` directory. One option is to create a symbolic link from the git repository to the Packages folder.Here's how I install from the git repo on my computer:
 
-`→ cd ~/src/sublime-text/JsBeautifier` - location of my git repository
-
-then:
-
-`→ ln -s . ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/JsBeautifier`
+`→ ln -s ~/src/oss/sublime-text/JsBeautifier ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/JsBeautifier`
 
 Key Binding
 -----------
